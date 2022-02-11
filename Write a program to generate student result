@@ -1,0 +1,36 @@
+sno=int(input("Enter sno"))
+sname=input("Enter name")
+sgroup=input(" Enter group")
+s1=int(input("Telugu marks:"))
+s2=int(input("English marks:"))
+s3=int(input("Environmental education marks:"))
+s4=int(input("Maths marks:"))
+s5=int(input("Physics marks:"))
+s6=int(input("Computer science:"))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6 
+grade=total<35
+if avg>=91:
+     print("O-grade")
+elif avg>=81:
+    print("A-grade")
+elif avg>=71:
+    print("B-grade")
+elif avg>=61:
+     print("C-grade")
+elif avg>=51:
+    print("D-grade")
+elif avg>=40:   
+    print("Pass")
+else:
+    print("Fail")
+    
+
+
+
+
+
+
+
+
+
